@@ -1,0 +1,81 @@
+#mainMario-wrapper {
+    justify-self: center;
+    padding-top: 150px;
+    width: 70%;
+    height: 650px;
+    position: relative;
+}
+
+#marioPic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+#white-div-mario {
+    position: absolute;
+
+    width: 100%;
+    bottom: -50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border: 1px solid #FFBC0D;
+}
+
+
+#moreBtn-mario {
+    width: 230px;
+    height: 45px;
+    background-color: #FFBC0D;
+    border-radius: 30px;
+}
+
+
+
+@media(max-width:1000px) {
+    #mainMario-wrapper {
+        width: 90%;
+        height: 800px;
+    }
+
+}
+
+@media(max-width:700px) {
+    #mainMario-wrapper {
+        height: 900px;
+    }
+
+}
+
+@media(max-width:500px) {
+    #mainMario-wrapper {
+        padding-top: 120px;
+    }
+
+    #mainMario-wrapper {
+        width: 95%;
+        height: 800px;
+    }
+
+
+
+
+}
+
+@media(max-width:400px) {
+    #moreBtn-mario {
+        width: 210px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 0.9rem;
+    }
+
+
+}
