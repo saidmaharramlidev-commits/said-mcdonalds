@@ -1,5 +1,4 @@
 #mainMario-wrapper {
-    justify-self: center;
     padding-top: 150px;
     width: 70%;
     height: 650px;
@@ -30,12 +29,241 @@
 }
 
 
-#moreBtn-mario {
+.moreBtn-mario {
     width: 230px;
     height: 45px;
-    background-color: #FFBC0D;
+    background: linear-gradient(135deg, #FFBC0D, #ffcf3f);
     border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
+
+.moreBtn-mario::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(255, 255, 255, 0.6),
+            transparent);
+    transform: skewX(-20deg);
+}
+
+/* hover */
+.moreBtn-mario:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* animate shine */
+.moreBtn-mario:hover::before {
+    left: 130%;
+    transition: left 0.6s ease;
+}
+
+
+
+
+
+
+
+
+#otherPartsHome {
+    width: 80%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+.other-wrapper {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-other {
+    width: 60%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: var(--radius-2xl);
+}
+
+.right-other {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.right-other h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.right-other p {
+    font-weight: 500;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#blogs-wrapper-home {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+.blog-wrapper {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    gap: 20px;
+}
+
+
+.blog-img-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.blogPic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.blogPic:hover {
+    transform: scale(1.03);
+}
+
+
+.blog-wrapper h1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.blog-wrapper p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------MEDIA-----------------------------------------------------*/
+
+
+@media(max-width:1200px) {
+    #otherPartsHome {
+        width: 90%;
+    }
+
+    .blog-wrapper {
+        width: 30%;
+    }
+
+
+    #blogs-wrapper-home {
+        gap: 20px;
+    }
+
+}
+
+
+
+@media(max-width:1100px) {
+
+    #otherPartsHome {
+        gap: 60px;
+    }
+
+
+    .other-wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-other {
+        width: 100%;
+        height: 400px;
+    }
+
+    .right-other {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #mobileApp-wrapper {
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+
 
 
 
@@ -45,11 +273,36 @@
         height: 800px;
     }
 
+    #blogs-wrapper-home {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .blog-wrapper {
+        width: 50%;
+    }
+
 }
 
 @media(max-width:700px) {
     #mainMario-wrapper {
         height: 900px;
+    }
+
+    .left-other {
+        height: 300px;
+    }
+
+    .right-other h1 {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media(max-width:600px) {
+    .blog-wrapper {
+        width: 70%;
     }
 
 }
@@ -64,6 +317,26 @@
         height: 800px;
     }
 
+    .left-other {
+        height: 250px;
+    }
+
+    .right-other h1 {
+        font-size: 1.3rem;
+    }
+
+    .right-other p {
+        font-size: 0.8rem;
+    }
+
+    .blog-wrapper {
+        width: 95%;
+    }
+
+    .blog-img-wrapper {
+        height: 400px;
+    }
+
 
 
 
@@ -76,6 +349,23 @@
         border-radius: 30px;
         font-size: 0.9rem;
     }
+
+    .right-other h1 {
+        font-size: 1rem;
+    }
+
+    .left-other {
+        height: 220px;
+    }
+
+    .blog-wrapper h1 {
+        font-size: 1.4rem;
+    }
+
+    .blog-wrapper p {
+        font-size: 0.8rem;
+    }
+
 
 
 }
