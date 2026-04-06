@@ -67,7 +67,7 @@ export default function Home() {
             <h1>{sectionLang.deliveryTitle}</h1>
             <p>{sectionLang.deliveryDesc}</p>
 
-            <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+            <Link href='/delivery' className="center moreBtn-mario">{moreBtnText}</Link>
           </div>
 
         </div>
@@ -79,7 +79,7 @@ export default function Home() {
             <h1>{sectionLang.appTitle}</h1>
             <p>{sectionLang.appDesc}</p>
 
-            <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+            <Link href='/downloadApp' className="center moreBtn-mario">{moreBtnText}</Link>
 
           </div>
 
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
           <h1>{cardText.subscribeTitle}</h1>
           <p>{cardText.subscribeDesc}</p>
-          <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+          <Link href='/subscription' className="center moreBtn-mario">{moreBtnText}</Link>
 
         </div>
 
@@ -113,7 +113,7 @@ export default function Home() {
           </div>
           <h1>{cardText.joinTitle}</h1>
           <p>{cardText.joinDesc}</p>
-          <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+          <Link href='/career' className="center moreBtn-mario">{moreBtnText}</Link>
 
         </div>
 
@@ -123,7 +123,7 @@ export default function Home() {
           </div>
           <h1>{cardText.qualityTitle}</h1>
           <p>{cardText.qualityDesc}</p>
-          <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+          <Link href='/about' className="center moreBtn-mario">{moreBtnText}</Link>
 
         </div>
 

@@ -48,9 +48,9 @@ function Footer() {
                 <div className="element-top-footer">
                     <h1>{langOfFooter.services[0]}</h1>
                     <Link href={'/'} className="footer-link">{langOfFooter.services[1]}</Link>
-                    <Link href={'/'} className="footer-link">{langOfFooter.services[2]}</Link>
+                    <Link href={'/delivery'} className="footer-link">{langOfFooter.services[2]}</Link>
                     <Link href={'/'} className="footer-link">{langOfFooter.services[3]}</Link>
-                    <Link href={'/'} className="footer-link">{langOfFooter.services[4]}</Link>
+                    <Link href={'/downloadApp'} className="footer-link">{langOfFooter.services[4]}</Link>
 
                 </div>
 

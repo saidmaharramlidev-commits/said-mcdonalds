@@ -8,6 +8,9 @@ import { Provider } from 'react-redux'
 import '../css/navbar.css'
 import '../css/homePage.css'
 import '@/css/footer.css'
+import '@/css/sectionHero.css'
+import '@/css/aboutPage.css'
+
 
 const metadata: Metadata = {
   title: "Mc Donalds",
