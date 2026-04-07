@@ -1,6 +1,6 @@
 'use client'
 
-import { footerTexts } from "@/data"
+import { footerTexts } from "@/data/data"
 import { RootState } from "@/redux/store"
 import { useSelector } from "react-redux"
 import { FaFacebook } from "react-icons/fa";

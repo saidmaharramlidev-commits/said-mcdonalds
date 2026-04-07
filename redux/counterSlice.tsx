@@ -1,4 +1,4 @@
-import { Lang } from '@/data'
+import { Lang } from '@/data/data'
 import { createSlice } from '@reduxjs/toolkit'
 import { PayloadAction } from '@reduxjs/toolkit'
 

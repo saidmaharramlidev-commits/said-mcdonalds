@@ -10,6 +10,7 @@ import '../css/homePage.css'
 import '@/css/footer.css'
 import '@/css/sectionHero.css'
 import '@/css/aboutPage.css'
+import '@/css/locationsPage.css'
 
 
 const metadata: Metadata = {

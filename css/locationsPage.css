@@ -1,0 +1,115 @@
+#location-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.location {
+    width: 32%;
+    background: #fff;
+    border-radius: 18px;
+    padding: 20px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.25s ease;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.location h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Address */
+.location .address {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Info text */
+.location .info {
+    font-size: 13px;
+    display: flex;
+    color: #444;
+    gap: 10px;
+}
+
+/* Tags (delivery / drive) */
+.location .tag {
+    display: inline-block;
+    width: fit-content;
+
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 999px;
+
+    font-weight: 500;
+}
+
+/* Drive thru */
+.location .drive {
+    background: #fff3cd;
+    color: #b58100;
+    display: flex;
+    gap: 5px;
+}
+
+/* Delivery */
+.location .delivery {
+    display: flex;
+    background: #e6f4ea;
+    color: #1e7e34;
+    gap: 5px;
+}
+
+
+@media(max-width:1000px) {
+    .location {
+        width: 47%;
+    }
+}
+
+@media(max-width:700px) {
+    #location-wrapper {
+        gap: 10px;
+    }
+
+    .location {
+        width: 49%;
+    }
+}
+
+@media(max-width:600px) {
+    #location-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .location {
+        width: 95%;
+    }
+}
+
+@media(max-width:400px) {
+    #location-wrapper {
+        margin-top: 50px;
+
+    }
+}

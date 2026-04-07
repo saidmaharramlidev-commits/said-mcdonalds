@@ -4,8 +4,8 @@
 
 import Navbar from "@/components/Navbar"
 import SectionHero from "@/components/SectionHero"
-import { moreText, navbarData } from "@/data"
-import { aboutCards, aboutInfo } from "@/data(2)"
+import { moreText, navbarData } from "@/data/data"
+import { aboutCards, aboutInfo } from "@/data/data(2)"
 import pic from "@/public/meat.png"
 import { RootState } from "@/redux/store"
 import { useSelector } from "react-redux"

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { FaEarthAsia } from "react-icons/fa6";
 
 function SectionHero({ text, pic }: {
     text: string,
@@ -7,7 +8,10 @@ function SectionHero({ text, pic }: {
     return (
         <div id="mainSectionHero">
             <Image className="w-full h-full object-cover sectionHeroPic" alt="picture" src={pic} />
-            <p className="center">{text}</p>
+            <p className="center sectionLabel">
+                <FaEarthAsia />
+                <span>{text}</span>
+            </p>
 
         </div>
     )

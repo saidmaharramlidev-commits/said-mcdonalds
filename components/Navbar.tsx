@@ -2,7 +2,7 @@
 
 
 
-import { Lang, navbarData } from '@/data'
+import { Lang, navbarData } from '@/data/data'
 import logo from '@/public/logo.png'
 import { setLang, setNavbar } from '@/redux/counterSlice'
 import { RootState } from '@/redux/store'

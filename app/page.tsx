@@ -6,7 +6,7 @@ import Image from "next/image";
 import mario from '@/public/marioPIc.jpg'
 import { useSelector } from "react-redux";
 import { RootState } from "@/redux/store";
-import { adsText, cardTexts, moreText, sectionTexts } from "@/data";
+import { adsText, cardTexts, moreText, sectionTexts } from "@/data/data";
 import Link from "next/link";
 
 import delivery from '@/public/delivery.png'
