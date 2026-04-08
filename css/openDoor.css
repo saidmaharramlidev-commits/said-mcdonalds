@@ -1,0 +1,195 @@
+.open-door-text-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+
+.open-door-text-wrapper h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.open-door-text-wrapper a {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.formContainer {
+    max-width: 760px;
+    margin: 80px auto;
+    padding: 40px;
+    border-radius: 24px;
+    background: #ffffff;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+    border: 1px solid #f0f0f0;
+    justify-self: center;
+}
+
+.formTitle {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.formTitle::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #ffbc0d;
+    margin: 12px auto 0;
+    border-radius: 2px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.formRow {
+    display: flex;
+    gap: 20px;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Inputs */
+.input .MuiOutlinedInput-root {
+    border-radius: 14px;
+    background: #fafafa;
+    transition: all 0.25s ease;
+}
+
+.input .MuiOutlinedInput-root fieldset {
+    border: 1px solid #e5e5e5;
+}
+
+.input .MuiOutlinedInput-root:hover {
+    background: #ffffff;
+}
+
+.input .MuiOutlinedInput-root:hover fieldset {
+    border-color: #ffbc0d;
+}
+
+.input .MuiOutlinedInput-root.Mui-focused {
+    background: #ffffff;
+}
+
+.input .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #ffbc0d;
+    border-width: 2px;
+    box-shadow: 0 0 0 3px rgba(255, 188, 13, 0.15);
+}
+
+/* Label */
+.input .MuiInputLabel-root {
+    color: #777;
+    font-size: 14px;
+}
+
+.input .MuiInputLabel-root.Mui-focused {
+    color: #222;
+    font-weight: 500;
+}
+
+/* Button */
+.submitBtn {
+    margin-top: 10px !important;
+    padding: 16px !important;
+    border-radius: 50px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+
+    background: linear-gradient(135deg, #ffbc0d, #ff9f00) !important;
+    color: #1a1a1a !important;
+
+    text-transform: none !important;
+    letter-spacing: 0.3px;
+    box-shadow: 0 10px 25px rgba(255, 188, 13, 0.35);
+
+    transition: all 0.3s ease;
+}
+
+.submitBtn:hover {
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 14px 30px rgba(255, 188, 13, 0.5);
+}
+
+/* Subtle animation */
+.formContainer {
+    animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+@media(max-width:1000px) {
+    .open-door-text-wrapper {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 640px) {
+    .formContainer {
+        padding: 24px;
+        margin: 30px 16px;
+    }
+
+    .formRow {
+        flex-direction: column;
+    }
+
+    .formTitle {
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:500px) {
+    .open-door-text-wrapper h1 {
+        font-size: 1.4rem;
+    }
+
+    .open-door-text-wrapper p {
+        font-size: 0.9rem;
+    }
+}
