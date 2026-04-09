@@ -11,7 +11,9 @@ import '@/css/footer.css'
 import '@/css/sectionHero.css'
 import '@/css/aboutPage.css'
 import '@/css/locationsPage.css'
+import '@/css/subscriptionPage.css'
 import '@/css/openDoor.css'
+import '@/css/career.css'
 
 
 const metadata: Metadata = {

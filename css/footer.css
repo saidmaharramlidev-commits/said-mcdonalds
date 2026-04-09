@@ -158,6 +158,7 @@
 
     #bottom-footer-wrapper {
         min-height: 50px;
+        justify-content: center;
     }
 
     #mainFooter {

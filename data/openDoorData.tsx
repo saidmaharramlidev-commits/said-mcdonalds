@@ -62,7 +62,7 @@ export default function OpenDoor(): any {
 
 export const formLabels = {
     az: {
-        title: 'Açıq qapı" proqramında iştirak üçün sorğu anketi',
+        title: '"Açıq qapı" proqramında iştirak üçün sorğu anketi',
         surname: 'Soyad',
         name: 'Ad',
         phone: 'Telefon nömrəsi',

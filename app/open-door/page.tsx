@@ -12,6 +12,8 @@ import { useSelector } from "react-redux"
 import { TextField, Button, MenuItem } from "@mui/material";
 import Footer from "@/components/Footer"
 import { locations } from "@/data/locationsData"
+import { useState } from "react"
+import { navbarData } from "@/data/data"
 
 
 function page() {
@@ -21,12 +23,17 @@ function page() {
     const formSpans = formLabels[lang as keyof typeof formLabels]
 
 
+    const heroText = navbarData[lang as keyof typeof navbarData]
 
+    const [name, setName] = useState('')
+    const [surname, setSurname] = useState('')
+    const [phone, setPhone] = useState('')
+    const [email, setEmail] = useState('')
 
     return (
         <div id="mainOpenDoor">
             <Navbar />
-            <SectionHero text="Open Door" pic={pic} />
+            <SectionHero text={heroText.main.openDoor.label} pic={pic} />
             <OpenDoor />
 
 
@@ -42,6 +49,7 @@ function page() {
                             variant="outlined"
                             fullWidth
                             className="input"
+                            onChange={(e) => setName(e.target.value)}
                         />
 
                         <TextField
@@ -49,6 +57,7 @@ function page() {
                             variant="outlined"
                             fullWidth
                             className="input"
+                            onChange={(e) => setSurname(e.target.value)}
                         />
                     </div>
 
@@ -59,6 +68,7 @@ function page() {
                             variant="outlined"
                             fullWidth
                             className="input"
+                            onChange={(e) => setPhone(e.target.value)}
                         />
 
                         <TextField
@@ -66,6 +76,7 @@ function page() {
                             variant="outlined"
                             fullWidth
                             className="input"
+                            onChange={(e) => setEmail(e.target.value)}
                         />
                     </div>
 
