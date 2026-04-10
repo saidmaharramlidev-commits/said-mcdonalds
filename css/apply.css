@@ -1,0 +1,137 @@
+#container-apply {
+    width: 90%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+
+.apply-col-wrapper {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+
+}
+
+
+
+.form-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.form-subtitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.col {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 25px;
+    width: 80%;
+}
+
+.additionalInfo-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.field-apply-address {
+    grid-column: 1 / span 2;
+}
+
+
+#submitCta-apply {
+    margin-top: 30px !important;
+}
+
+
+
+
+/* MUI input styling (important for that thin line look) */
+
+/* Label */
+.input-apply .MuiInputLabel-root {
+    color: #777;
+    font-size: 14px;
+}
+
+.input-apply .MuiInputLabel-root.Mui-focused {
+    color: #222;
+    font-weight: 500;
+}
+
+
+
+.MuiTextField-root {
+    margin-top: 10px;
+}
+
+.MuiInput-root::before {
+    border-bottom: 1px solid #ccc !important;
+}
+
+.MuiInput-root:hover:not(.Mui-disabled)::before {
+    border-bottom: 1px solid #999 !important;
+}
+
+.MuiInput-root::after {
+    border-bottom: 2px solid #ffbc0d !important;
+}
+
+
+
+
+.checkbox {
+    margin-top: 20px;
+}
+
+
+@media(max-width:1000px) {
+    .col {
+        width: 100%;
+    }
+
+    .additionalInfo-col {
+        width: 100%;
+    }
+}
+
+@media(max-width:600px) {
+    .apply-col-wrapper {
+        width: 90%;
+    }
+}
+
+@media(max-width:500px) {
+    .form-title {
+        font-size: 1.5rem;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-subtitle {
+        font-size: 1rem;
+    }
+
+    .note-apply {
+        font-size: 0.9rem
+    }
+
+}

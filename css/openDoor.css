@@ -127,11 +127,11 @@
     letter-spacing: 0.3px;
     box-shadow: 0 10px 25px rgba(255, 188, 13, 0.35);
 
-    transition: all 0.3s ease;
+    transition: all 0.4s !important;
 }
 
 .submitBtn:hover {
-    transform: translateY(-3px) scale(1.01);
+    transform: translateY(-3px) scale(1.02);
     box-shadow: 0 14px 30px rgba(255, 188, 13, 0.5);
 }
 
