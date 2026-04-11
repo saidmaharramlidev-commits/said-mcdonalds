@@ -67,7 +67,7 @@ export default function Home() {
             <h1>{sectionLang.deliveryTitle}</h1>
             <p>{sectionLang.deliveryDesc}</p>
 
-            <Link href='/delivery' className="center moreBtn-mario">{moreBtnText}</Link>
+            <Link href='/mcdelivery' className="center moreBtn-mario">{moreBtnText}</Link>
           </div>
 
         </div>

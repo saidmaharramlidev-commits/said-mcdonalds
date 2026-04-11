@@ -23,6 +23,39 @@ function page() {
     const formSpans = formLabels[lang as keyof typeof formLabels]
 
 
+    const [formData, setFormData] = useState({
+        name: '',
+        surname: '',
+        fatherName: '',
+        email: '',
+        phone: '',
+        gender: '',
+        birthDate: '',
+        city: '',
+        address: '',
+        vacancies: '',
+        startDate: '',
+        startTime: '',
+        endTime: '',
+        photo: null,
+        healthCondition: '',
+        about: '',
+        workedBefore: false,
+        restaurant: '',
+        militaryService: '',
+    })
+
+
+    const handleChange = (e: any) => {
+        const { name, value, type, checked } = e.target
+
+        setFormData(prev => ({
+            ...prev,
+            [name]: type === 'checkbox' ? checked : value
+        }))
+    }
+
+
 
     return (
         <div id="mainApplyPage">
@@ -40,6 +73,7 @@ function page() {
                             label={`${applyText.name}`}
                             variant="standard"
                             fullWidth
+                            onChange={handleChange}
                             className='input-apply'
                         />
 
@@ -48,6 +82,7 @@ function page() {
                             variant="standard"
                             fullWidth
                             className='input-apply'
+                            onChange={handleChange}
                         />
 
                         <TextField
@@ -55,6 +90,7 @@ function page() {
                             variant="standard"
                             fullWidth
                             className='input-apply'
+                            onChange={handleChange}
                         />
 
 
@@ -64,6 +100,7 @@ function page() {
                             variant="standard"
                             fullWidth
                             className='input-apply'
+                            onChange={handleChange}
                         />
 
 
@@ -72,6 +109,7 @@ function page() {
                             variant="standard"
                             fullWidth
                             className='input-apply'
+                            onChange={handleChange}
                         />
 
 
@@ -79,6 +117,8 @@ function page() {
                         <TextField
                             select
                             label={`${applyText.gender}`}
+                            value={formData.gender}
+                            onChange={handleChange}
                             variant="standard"
                             fullWidth
                             className='input-apply'
@@ -90,6 +130,8 @@ function page() {
                         <TextField
                             label={applyText.birthDate}
                             type="date"
+                            value={formData.birthDate}
+                            onChange={handleChange}
                             variant="standard"
                             fullWidth
                             className='input-apply'
@@ -104,6 +146,8 @@ function page() {
                             label={`${applyText.city}`}
                             variant="standard"
                             fullWidth
+                            value={formData.city}
+                            onChange={handleChange}
                             className='input-apply'
                         >
                             <MenuItem value="baku">Baku</MenuItem>
@@ -117,6 +161,8 @@ function page() {
                             variant="standard"
                             fullWidth
                             className='field-apply-address input-apply'
+                            value={formData.address}
+                            onChange={handleChange}
                         />
                     </div>
                 </div>
@@ -131,6 +177,8 @@ function page() {
                             label={`${applyText.vacancies}`}
                             variant="standard"
                             fullWidth
+                            value={formData.vacancies}
+                            onChange={handleChange}
                             className='input-apply'
                         >
                             <MenuItem value="cashier">Technician</MenuItem>
@@ -142,6 +190,8 @@ function page() {
                             label={`${applyText.startDate}`}
                             type="time"
                             variant="standard"
+                            value={formData.startDate}
+                            onChange={handleChange}
                             fullWidth
                             className='input-apply'
                             InputLabelProps={{ shrink: true }}
@@ -171,6 +221,8 @@ function page() {
                                     label={`${applyText.startTime}`}
                                     type="time"
                                     variant="standard"
+                                    value={formData.startTime}
+                                    onChange={handleChange}
                                     className='input-apply'
                                     fullWidth
                                     InputLabelProps={{ shrink: true }}
@@ -182,6 +234,8 @@ function page() {
                                     type="time"
                                     variant="standard"
                                     className='input-apply'
+                                    value={formData.endTime}
+                                    onChange={handleChange}
                                     fullWidth
                                     InputLabelProps={{ shrink: true }}
                                 />
@@ -200,6 +254,7 @@ function page() {
                             label={`${applyText.photo}`}
                             variant="standard"
                             type='file'
+                            onChange={handleChange}
                             fullWidth
                             InputLabelProps={{ shrink: true }}
                             className='field-apply-address input-apply'
@@ -207,12 +262,16 @@ function page() {
                         <TextField
                             label={`${applyText.healthCondition}`}
                             variant="standard"
+                            value={formData.healthCondition}
+                            onChange={handleChange}
                             fullWidth
                             className='field-apply-address input-apply'
                         />
                         <TextField
                             label={`${applyText.about}`}
                             variant="standard"
+                            value={formData.about}
+                            onChange={handleChange}
                             fullWidth
                             className='field-apply-address input-apply'
                         />
@@ -220,6 +279,9 @@ function page() {
                         <FormControlLabel
                             control={
                                 <Checkbox
+                                    name="workedBefore"
+                                    checked={formData.workedBefore}
+                                    onChange={handleChange}
                                 />
                             }
                             label={applyText.workedBefore}
@@ -230,6 +292,8 @@ function page() {
                             select
                             label={applyText.restaurant}
                             defaultValue=""
+                            value={formData.restaurant}
+                            onChange={handleChange}
                             fullWidth
                             className="input "
                         >
@@ -243,6 +307,8 @@ function page() {
                         <TextField
                             select
                             label={`${applyText.militaryService}`}
+                            value={formData.militaryService}
+                            onChange={handleChange}
                             variant="standard"
                             fullWidth
                             className='input-apply'

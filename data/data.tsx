@@ -52,7 +52,7 @@ export const navbarData: Record<Lang, NavbarLang> = {
             openDoor: {
                 label: '"Açıq Qapı" proqramı',
                 href: "/open-door",
-            },
+            }
         },
     },
 
