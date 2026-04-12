@@ -1,0 +1,41 @@
+.container-history {
+    padding-top: 120px;
+    justify-self: center;
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.historyPage-header {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.history-sections {
+    padding-bottom: 40px;
+}
+
+.history-sections h1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.history-sections p {
+    padding-top: 10px;
+    color: #333;
+}
+
+@media(max-width:500px) {
+    .history-sections h1 {
+        font-size: 1.2rem
+    }
+
+    .history-sections p {
+        font-size: 0.9rem;
+    }
+
+    .historyPage-header {
+        font-size: 1.7rem;
+    }
+}

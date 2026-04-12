@@ -1,0 +1,89 @@
+.container-downloadApp {
+    width: 90%;
+    justify-self: center;
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.container-downloadApp h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.container-downloadApp p {
+    color: #333;
+    padding-top: 10px
+}
+
+.download-buttons {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0 20px 0;
+}
+
+.store-btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+/* iOS style */
+.store-btn.ios {
+    background-color: black;
+    color: white;
+}
+
+.store-btn.ios:hover {
+    background-color: #333;
+}
+
+/* Android style */
+.store-btn.android {
+    background-color: #3ddc84;
+    color: black;
+}
+
+.store-btn.android:hover {
+    background-color: #2bbf6c;
+}
+
+/* Feedback button */
+.feedback-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffbc0d;
+    /* McDonald's vibe */
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.feedback-btn:hover {
+    background-color: #e0a800;
+}
+
+@media(max-width:700px) {
+    .container-downloadApp {
+        margin-top: 40px;
+        padding-bottom: 70px;
+    }
+}
+
+
+@media(max-width:500px) {
+    .container-downloadApp h1 {
+        font-size: 1.3rem
+    }
+
+    .container-downloadApp p {
+        font-size: 0.9rem;
+    }
+}

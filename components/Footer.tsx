@@ -30,8 +30,8 @@ function Footer() {
             <div id="top-footer-wrapper">
                 <div className="element-top-footer">
                     <h1>{langOfFooter.about[0]}</h1>
-                    <Link href={'/'} className="footer-link">{langOfFooter.about[1]}</Link>
-                    <Link href={'/'} className="footer-link">{langOfFooter.about[2]}</Link>
+                    <Link href={'/our-history'} className="footer-link">{langOfFooter.about[1]}</Link>
+                    <Link href={'/news'} className="footer-link">{langOfFooter.about[2]}</Link>
                     <Link href={'/'} className="footer-link">{langOfFooter.about[3]}</Link>
                     <Link href={'/'} className="footer-link">{langOfFooter.about[4]}</Link>
 

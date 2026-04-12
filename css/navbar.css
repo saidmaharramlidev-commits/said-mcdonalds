@@ -157,13 +157,19 @@
     #main-endpoints-navbar-wrapper {
         position: fixed;
         top: 0;
-        left: -60%;
-        width: 60%;
-        opacity: 0;
+        left: -65%;
+        width: 65%;
         height: 100vh;
-        background-color: #f7f7f7;
-        transition: all 0.5s ease-out;
+        opacity: 0;
+
+        background-color: #ffffff;
         flex-direction: column;
+        align-items: flex-start;
+
+        padding: 120px 20px 20px 20px;
+        gap: 12px;
+
+        transition: all 0.35s;
     }
 
     #main-endpoints-navbar-wrapper.opened {
@@ -171,8 +177,52 @@
         opacity: 1;
     }
 
+    /* MAIN LINKS */
+    .mainEndpoint {
+        width: 100%;
+        font-size: 15px;
+
+        padding: 12px 14px;
+        border-radius: 10px;
+
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .mainEndpoint:hover {
+        background-color: #f5f5f5;
+        transform: none;
+    }
+
+    .mainEndpoint.active {
+        background-color: #ffbc0d;
+        color: #000;
+        box-shadow: none;
+    }
+
+    /* TOP PART INSIDE MENU */
     #menu-top-endpoints-navbar-wrapper {
         display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #e5e5e5;
+
+        gap: 8px;
+    }
+
+    .menu-topEndpoint {
+        font-size: 13px;
+        padding: 8px 4px;
+    }
+
+    /* LANGUAGE SELECT */
+    .menu-lang-select {
+        width: 100%;
+        padding: 8px;
+        border-radius: 6px;
     }
 
 }

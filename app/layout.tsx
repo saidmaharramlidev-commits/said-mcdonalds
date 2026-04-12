@@ -16,6 +16,9 @@ import '@/css/openDoor.css'
 import '@/css/career.css'
 import '@/css/apply.css'
 import '@/css/mcdelivery.css'
+import '@/css/downloadApp.css'
+import '@/css/ourHistoryPage.css'
+import '@/css/newsPage.css'
 
 
 const metadata: Metadata = {
