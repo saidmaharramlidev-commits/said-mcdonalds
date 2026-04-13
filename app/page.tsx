@@ -3,7 +3,7 @@
 
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import mario from '@/public/marioPIc.jpg'
+import mario from '@/public/marioPlc.png'
 import { useSelector } from "react-redux";
 import { RootState } from "@/redux/store";
 import { adsText, cardTexts, moreText, sectionTexts } from "@/data/data";

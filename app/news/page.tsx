@@ -7,7 +7,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-import mario from '@/public/marioPIc.jpg'
+import mario from '@/public/marioPlc.png'
 import kidMenu from '@/public/kidMenu.png'
 import friend from '@/public/friend.png'
 import mcCafe from '@/public/mccafe.png'
@@ -66,7 +66,7 @@ function page() {
                             <Image alt="pic" src={mario} className="blogPic" />
                         </div>
                         <h1>{newsText.mario}</h1>
-                        <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+                        <Link href={`/news/${1}`} className="center moreBtn-mario">{moreBtnText}</Link>
 
                     </div>
 
@@ -75,7 +75,7 @@ function page() {
                             <Image alt="pic" src={kidMenu} className="blogPic" />
                         </div>
                         <h1>{newsText.kidsParty}</h1>
-                        <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+                        <Link href={`/news/${2}`} className="center moreBtn-mario">{moreBtnText}</Link>
 
                     </div>
 
@@ -84,7 +84,7 @@ function page() {
                             <Image alt="pic" src={friend} className="blogPic" />
                         </div>
                         <h1>{newsText.friendsMenu}</h1>
-                        <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+                        <Link href={`/news/${3}`} className="center moreBtn-mario">{moreBtnText}</Link>
 
                     </div>
 
@@ -94,7 +94,7 @@ function page() {
                             <Image alt="pic" src={mcCafe} className="blogPic" />
                         </div>
                         <h1>McCafe®</h1>
-                        <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+                        <Link href={`/news/${4}`} className="center moreBtn-mario">{moreBtnText}</Link>
 
                     </div>
                 </div>
