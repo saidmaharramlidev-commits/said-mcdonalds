@@ -19,6 +19,7 @@ import '@/css/mcdelivery.css'
 import '@/css/downloadApp.css'
 import '@/css/ourHistoryPage.css'
 import '@/css/newsPage.css'
+import '@/css/valuesPage.css'
 
 
 const metadata: Metadata = {
