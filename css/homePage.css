@@ -338,6 +338,11 @@
     }
 
 
+    #marioPic {
+        object-fit: none;
+    }
+
+
 
 
 }

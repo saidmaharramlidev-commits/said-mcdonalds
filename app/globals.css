@@ -5,3 +5,22 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 500px) {
+    .makAvtoContent h1 {
+        font-size: 1.5rem;
+    }
+
+    .makAvtoContent p {
+        font-size: 0.875rem;
+    }
+
+
+    .wifiFaq span {
+        font-size: 0.9rem;
+    }
+
+    .faqAnswer {
+        font-size: 0.875rem;
+    }
+}

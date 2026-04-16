@@ -69,6 +69,67 @@ function renderNewsContent(id: ParamValue, data: any, lang: string) {
                 </>
             )
 
+        case '2':
+            return (
+                <>
+                    <p className="mt-10 qualityFirstText">
+                        {data.content[0].value[lang]}
+                    </p>
+
+
+                    <div className="text-wrapper-values">
+                        <h1>{data.content[1].header[lang]}</h1>
+
+                        <p>{data.content[1].value[lang]}</p>
+                    </div>
+
+
+
+                    <div className="text-wrapper-values">
+                        <h1>{data.content[2].header[lang]}</h1>
+
+                        <p>{data.content[2].value[lang]}</p>
+                    </div>
+
+
+
+                    <div className="text-wrapper-values">
+                        <h1>{data.content[3].header[lang]}</h1>
+
+                        <p>{data.content[3].value[lang]}</p>
+                    </div>
+
+
+
+                </>
+            )
+
+        case '3':
+            return (
+                <>
+                    <p className="mt-10 qualityFirstText">
+                        {data.content[0].value[lang]}
+                    </p>
+
+
+                    <div className="text-wrapper-values">
+                        <h1>{data.content[1].header[lang]}</h1>
+
+                        <p>{data.content[1].value[lang]}</p>
+                    </div>
+
+
+
+                    <div className="text-wrapper-values">
+                        <h1>{data.content[2].header[lang]}</h1>
+
+                        <p>{data.content[2].value[lang]}</p>
+                    </div>
+
+
+                </>
+            )
+
 
 
     }

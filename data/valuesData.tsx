@@ -1,4 +1,6 @@
 import quality from '@/public/values/qualityMeal.png'
+import planet from '@/public/values/environment.png'
+import support from '@/public/values/support.png'
 
 
 
@@ -141,6 +143,102 @@ export const valuesIdData = {
                     ru: "Мы стремимся к тому, чтобы говядина в наших бургерах способствовала созданию устойчивой продовольственной системы, в которой могут развиваться сообщества, животные и планета. Мы понимаем, что у нас пока нет всех ответов, но мы сотрудничаем с экспертами, фермерами и представителями отрасли для тестирования и внедрения более экологичных и восстановительных методов. Эти усилия помогают сохранять природу, снижать выбросы парниковых газов и поддерживать доходы фермеров, а также продвигаться к выполнению наших климатических обязательств."
                 }
             }
+        ]
+    },
+    2: {
+        heroText: { az: "Yaxşı Planet", en: "Good Planet", ru: "Хорошая планета" },
+        pic: planet,
+        content: [
+            {
+                type: "text",
+                value: {
+                    az: "Təchizatçılarımız və istehsalçılarımızla əməkdaşlıq edərək biz tullantıları azaltmaq, tullantıların ətraf mühiti kirləndirilmələrinin qarşısını almaq və təbii ehtiyatları qorumaq üçün innovativ yollar tapırıq. İstifadə etdiyimiz qablaşdırma miqdarının azaldılmasında tutmuş, bərpa olunan enerji mənbələrinə sərmayə və kənd təsərrüfatının ekoloji və bərpaedici üsullarla aparılmasının önə çəkilməsi üzrə əməkdaşlığa qədər – biz bu gün və gələcəkdə icmalar üçün planetimizi qorumağa kömək etmək istəyirik.",
+
+                    en: "In partnership with our suppliers and producers, we’re finding new and innovative ways to reduce emissions, keep waste out of nature and preserve natural resources. From minimizing how much packaging we use to investing in renewable energy and partnering to advance sustainable and regenerative agriculture practices – we want to help protect our planet for communities today and in the future. ",
+
+                    ru: "В партнерстве с нашими поставщиками и производителями мы находим инновационные способы сокращения выбросов, предотвращения загрязнения окружающей среды отходами и сохранения природных ресурсов. От сокращения объемов используемой нами упаковки до инвестирования в возобновляемые источники энергии и сотрудничество в продвижении экологичных и регенеративных методов ведения сельского хозяйства – мы стремимся помочь защитить нашу планету для сообществ сегодня и в будущем."
+                }
+            },
+            {
+                type: "text",
+                header: {
+                    az: "İqlim dəyişikliyinə qarşı mübarizə",
+                    en: "Fighting climate change",
+                    ru: "Борьба с изменением климата"
+                },
+                value: {
+                    az: "Restoranlarında, ofislərində və bütün təchizat zəncirində tullantıların azaldılması ilə əlaqəli elmi əsaslı bir hədəf təyin edən ilk qlobal restoran şirkəti məhz “McDonald’s” olub. Bərpa olunan enerji mənbələri daxil olmaqla ən böyük təsir imkanlarına sahib olduğumuz sahələrdə fəaliyyət göstərməyə üstünlük veririk.",
+                    en: "McDonald's was the first global restaurant company to set a science-based target for reducing waste across its restaurants, offices, and entire supply chain. We prioritize taking action in the areas where we can have the greatest impact, including the use of renewable energy sources.",
+                    ru: "McDonald's стала первой глобальной ресторанной компанией, установившей научно обоснованные цели по сокращению отходов в ресторанах, офисах и всей цепочке поставок. Мы уделяем приоритетное внимание действиям в тех областях, где можем оказать наибольшее влияние, включая использование возобновляемых источников энергии."
+                }
+            },
+            {
+                type: "text",
+                header: {
+                    az: "Qablaşdırma və tullantılar",
+                    en: "Packaging and waste",
+                    ru: "Упаковка и отходы"
+                },
+                value: {
+                    az: "Qablaşdırmanın miqdarını azaltmaq, daha ekoloji materiallara keçmək, eləcə də müştərilərə onları təkrar istifadə və emal etməkdə yardımçı olmaq üçün dünyanın hər yerində qablaşdırma və təkrar emal üzrə yeni həlləri sınaqdan keçiririk. Bu gün biz qablaşdırmanı bərpa edilə bilən, təkrar emal edilmiş və sertifikatlaşdırılmış materiallardan əldə etməklə bağlı hədəfimizə təxminən 78% nail olmuşuq.",
+                    en: "We are testing new packaging and recycling solutions around the world to reduce packaging, switch to more sustainable materials, and help customers reuse and recycle them. Today, we have achieved approximately 78% of our goal to source packaging from renewable, recycled, or certified materials.",
+                    ru: "Мы тестируем новые решения в области упаковки и переработки по всему миру, чтобы сократить объем упаковки, перейти на более экологичные материалы и помочь клиентам повторно использовать и перерабатывать их. На сегодняшний день мы достигли примерно 78% нашей цели по использованию возобновляемых, переработанных и сертифицированных материалов для упаковки."
+                }
+            },
+            {
+                type: "text",
+                header: {
+                    az: "Meşələrin qorunması",
+                    en: "Forest protection",
+                    ru: "Защита лесов"
+                },
+                value: {
+                    az: "2030-cu ilədək qlobal təchizat zəncirimizdən meşələrin qırılmasını aradan qaldırmaqla bağlı qarşımıza iddialı bir hədəf qoymuşuq və bu mürəkkəb problemin öhdəsindən gəlmək üçün birlikdə və təxirsiz çalışmağa qərarlıyıq. Ən böyük həcmdə aldığımız xammallarda və daha çox təsir göstərə biləcəyimiz sahələrdə əhəmiyyətli irəliləyişlər əldə edirik: mal əti, toyuq yemi üçün soya, qəhvə və lif əsaslı qablaşdırma. Hədəfimiz peyk xəritələməsi və sənayemizdə və ondan kənarda ən yaxşı təcrübələri bölüşmək kimi qabaqcıl texnologiyanı sınaqdan keçirərək transformasiya edici üsulları tətbiq etməkdir.",
+                    en: "We have set an ambitious goal to eliminate deforestation from our global supply chain by 2030 and are committed to working together urgently to tackle this complex challenge. We are making meaningful progress in the raw materials we source most and where we can have the greatest impact: beef, soy for chicken feed, coffee, and fiber-based packaging. Our goal is to implement transformative approaches by testing advanced technologies such as satellite mapping and sharing best practices within and beyond our industry.",
+                    ru: "Мы поставили амбициозную цель — к 2030 году устранить вырубку лесов из нашей глобальной цепочки поставок и намерены совместно и безотлагательно работать над решением этой сложной задачи. Мы добиваемся значительного прогресса в тех сырьевых материалах, которые закупаем в наибольших объемах и где можем оказать наибольшее влияние: говядина, соя для корма кур, кофе и упаковка на основе волокон. Наша цель — внедрять трансформационные подходы, тестируя передовые технологии, такие как спутниковое картографирование, и делясь лучшими практиками как внутри отрасли, так и за ее пределами."
+                }
+            },
+        ]
+    },
+
+    3: {
+        heroText: { az: "İcma ilə əlaqə", en: "Community Connection", ru: "Сообшество связывает" },
+        pic: support,
+        content: [
+            {
+                type: "text",
+                value: {
+                    az: "Cəmiyyətin bir hissəsi olmaq insanları hər gün, xüsusən ən çox ehtiyac duyduqları zaman dəstəkləmək deməkdir. Buna görə də biz ehtiyac və böhran vaxtlarında insanlara yardım edirik.\n\nFəaliyyət göstərdiyimiz hər yerdə yaxşı qonşu olmağa çalışırıq. İstər insanların yeməkdə bir araya gəlməsi üçün bir mərkəz kimi xidmət etmək, istərsə də ehtiyac olan anlarda vaxt və resurslar ayırmaqla, “McDonald's” hər zaman insanlara kömək etməyə hazırdır.",
+                    en: "Being part of the community means supporting people every day, especially when they need it most. That is why we help people in times of need and crisis.\n\nWherever we operate, we strive to be a good neighbor. Whether it is serving as a place where people come together to share a meal or providing time and resources when needed, McDonald's is always ready to help.",
+                    ru: "Быть частью общества означает поддерживать людей каждый день, особенно тогда, когда они нуждаются в этом больше всего. Поэтому мы помогаем людям в трудные и кризисные времена.\n\nГде бы мы ни работали, мы стремимся быть хорошим соседом. Будь то место, где люди собираются вместе за едой, или предоставление времени и ресурсов в нужный момент, McDonald's всегда готов помочь."
+                }
+            },
+            {
+                type: "text",
+                header: {
+                    az: "Cəmiyyətə dəstək və böhran vaxtı davranış",
+                    en: "Community support and crisis response",
+                    ru: "Поддержка общества и действия в кризис"
+                },
+                value: {
+                    az: "Dünyada 38.000-dən çox məkan xidmət etdiyimiz əksər cəmiyyətə qarşılıqlı dəstək vermək üçün imkanlar təqdim edir. “McDonald's” bu cəmiyyətlərdə dərin köklərə malikdir və onları dəstəkləməyin yolunu bilir – istər dadlı yemək hazırlamaq, qonşuluqda könüllü iş imkanı, istərsə də çətin anda kömək etməklə. COVID-19 bir çox yeni problem gətirdi, lakin “McFamily” ailəmiz böhran dövründə icmaları daha çox dəstəklədi.",
+                    en: "With more than 38,000 locations worldwide, we have the opportunity to support the communities we serve. McDonald's has deep roots in these communities and knows how to support them—whether by providing delicious food, offering volunteer opportunities, or helping in difficult times. COVID-19 brought many new challenges, but our McFamily supported communities even more during the crisis.",
+                    ru: "Более 38 000 ресторанов по всему миру дают нам возможность поддерживать сообщества, которым мы служим. McDonald's имеет глубокие корни в этих сообществах и знает, как их поддерживать — будь то приготовление вкусной еды, предоставление возможностей для волонтёрства или помощь в трудные времена. COVID-19 принес множество новых вызовов, но наша семья McFamily ещё больше поддержала сообщества в период кризиса."
+                }
+            },
+            {
+                type: "text",
+                header: {
+                    az: "Qida ianələr",
+                    en: "Food donations",
+                    ru: "Пожертвования еды"
+                },
+                value: {
+                    az: "“McDonald's” hesab edir ki, yaxşı yeməklər və qiymətli resurslar heç vaxt boşa getməməlidir və bu qlobal problemin həlli üçün imkanlarımızdan istifadə etmək istəyirik. Yeməklərimizin qoyulan məqsədə xidmət etməsini təmin etmək üçün təchizat zəncirimiz və restoranlarımızla işləyirik, həmçinin dünya miqyasında yerli icmalarda ehtiyacı olan ailələri qida ilə təmin etmək üçün yemək və ərzaqlar ianə edirik.",
+                    en: "McDonald's believes that good food and valuable resources should never go to waste, and we want to use our capabilities to help address this global issue. We work with our supply chain and restaurants to ensure our food serves its intended purpose, and we donate meals and food products worldwide to help feed families in need in local communities.",
+                    ru: "McDonald's считает, что хорошая еда и ценные ресурсы никогда не должны пропадать зря, и мы стремимся использовать наши возможности для решения этой глобальной проблемы. Мы работаем с нашей цепочкой поставок и ресторанами, чтобы наша еда использовалась по назначению, а также жертвуем продукты питания по всему миру, помогая обеспечивать нуждающиеся семьи в местных сообществах."
+                }
+            },
         ]
     },
 }
