@@ -20,6 +20,7 @@ import '@/css/downloadApp.css'
 import '@/css/ourHistoryPage.css'
 import '@/css/newsPage.css'
 import '@/css/valuesPage.css'
+import "@/css/menuPage.css"
 
 
 const metadata: Metadata = {
