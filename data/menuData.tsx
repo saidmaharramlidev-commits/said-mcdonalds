@@ -19,12 +19,61 @@ import burger6 from "@/public/menu/burger/burger6.png"
 import burger7 from "@/public/menu/burger/burger7.png"
 import burger8 from "@/public/menu/burger/burger8.png"
 import burger9 from "@/public/menu/burger/burger9.png"
+import burger10 from "@/public/menu/burger/burger10.png"
+import burger11 from "@/public/menu/burger/burger11.png"
+import burger12 from "@/public/menu/burger/burger12.png"
+import burger13 from "@/public/menu/burger/burger13.png"
+import burger14 from "@/public/menu/burger/burger14.png"
+import burger15 from "@/public/menu/burger/burger15.png"
+import burger16 from "@/public/menu/burger/burger16.png"
+import burger17 from "@/public/menu/burger/burger17.png"
+import burger18 from "@/public/menu/burger/burger18.png"
+import burger19 from "@/public/menu/burger/burger19.png"
+import burger20 from "@/public/menu/burger/burger20.png"
+import burger21 from "@/public/menu/burger/burger21.png"
+import burger22 from "@/public/menu/burger/burger22.png"
+import burger23 from "@/public/menu/burger/burger23.png"
+import burger24 from "@/public/menu/burger/burger24.png"
+import burger25 from "@/public/menu/burger/burger25.png"
+import burger26 from "@/public/menu/burger/burger26.png"
 
 import happyMeal1 from "@/public/menu/happyMeal/happyMeal1.png"
 import happyMeal2 from "@/public/menu/happyMeal/happyMeal2.png"
 import happyMeal3 from "@/public/menu/happyMeal/happyMeal3.png"
 import happyMeal4 from "@/public/menu/happyMeal/happyMeal4.png"
 
+import snack1 from "@/public/menu/snacks/snack1.png"
+import snack2 from "@/public/menu/snacks/snack2.png"
+import snack3 from "@/public/menu/snacks/snack3.png"
+import snack4 from "@/public/menu/snacks/snack4.png"
+import snack5 from "@/public/menu/snacks/snack5.png"
+import snack6 from "@/public/menu/snacks/snack6.png"
+import snack7 from "@/public/menu/snacks/snack7.png"
+import snack8 from "@/public/menu/snacks/snack8.png"
+import snack9 from "@/public/menu/snacks/snack9.png"
+import snack10 from "@/public/menu/snacks/snack10.png"
+
+import salad1 from "@/public/menu/salads/salad1.png"
+import salad2 from "@/public/menu/salads/salad2.png"
+import salad3 from "@/public/menu/salads/salad3.png"
+
+import drink1 from "@/public/menu/drinks/drink1.png"
+import drink2 from "@/public/menu/drinks/drink2.png"
+import drink3 from "@/public/menu/drinks/drink3.png"
+import drink4 from "@/public/menu/drinks/drink4.png"
+import drink5 from "@/public/menu/drinks/drink5.png"
+import drink6 from "@/public/menu/drinks/drink6.png"
+import drink7 from "@/public/menu/drinks/drink7.png"
+import drink8 from "@/public/menu/drinks/drink8.png"
+import drink9 from "@/public/menu/drinks/drink9.png"
+import drink10 from "@/public/menu/drinks/drink10.png"
+import drink11 from "@/public/menu/drinks/drink11.png"
+import drink12 from "@/public/menu/drinks/drink12.png"
+
+import mccafe1 from "@/public/menu/mcCafe/mccafe1.png"
+import mccafe2 from "@/public/menu/mcCafe/mccafe2.png"
+import mccafe3 from "@/public/menu/mcCafe/mccafe3.png"
+import mccafe4 from "@/public/menu/mcCafe/mccafe4.png"
 
 
 
@@ -63,7 +112,7 @@ export const categories = [
             en: "Snacks",
             ru: "Закуски",
         },
-        icon: breakfast1,
+        icon: snack1,
     },
     {
         id: "salads",
@@ -72,7 +121,7 @@ export const categories = [
             en: "Salads",
             ru: "Салаты",
         },
-        icon: breakfast1,
+        icon: salad1,
     },
     {
         id: "drinks",
@@ -82,6 +131,15 @@ export const categories = [
             ru: "Напитки",
         },
         icon: breakfast1,
+    },
+    {
+        id: "mccafe",
+        name: {
+            az: "McCafe",
+            en: "McCafe",
+            ru: "McCafe",
+        },
+        icon: mccafe1,
     },
 ]
 
@@ -296,6 +354,176 @@ export const products = [
         image: burger9,
         category: "burgers",
     },
+    {
+        id: "21",
+        name: {
+            az: "McCrispy®",
+            en: "McCrispy®",
+            ru: "Маккриспи®",
+        },
+        image: burger10,
+        category: "burgers",
+    },
+    {
+        id: "22",
+        name: {
+            az: "Dabl Royal Çizburger",
+            en: "Double Royal Cheeseburger",
+            ru: "Двойной Королевский Чизбургер",
+        },
+        image: burger11,
+        category: "burgers",
+    },
+    {
+        id: "23",
+        name: {
+            az: "Royal Çizburger",
+            en: "Royal Cheeseburger",
+            ru: "Королевский Чизбургер",
+        },
+        image: burger12,
+        category: "burgers",
+    },
+    {
+        id: "24",
+        name: {
+            az: "Dabl McChicken®",
+            en: "Double McChicken®",
+            ru: "Двойной Макчикен®",
+        },
+        image: burger13,
+        category: "burgers",
+    },
+    {
+        id: "25",
+        name: {
+            az: "McChicken®",
+            en: "McChicken®",
+            ru: "Макчикен®",
+        },
+        image: burger14,
+        category: "burgers",
+    },
+    {
+        id: "26",
+        name: {
+            az: "Dabl File-o-Fish®",
+            en: "Double File-o-Fish®",
+            ru: "Двойной Файл-о-Фиш®",
+        },
+        image: burger15,
+        category: "burgers",
+    },
+    {
+        id: "27",
+        name: {
+            az: "File-o-Fish®",
+            en: "File-o-Fish®",
+            ru: "Файл-о-Фиш®",
+        },
+        image: burger16,
+        category: "burgers",
+    },
+    {
+        id: "28",
+        name: {
+            az: "Sezar Roll",
+            en: "Caesar Roll",
+            ru: "Цезарь Ролл",
+        },
+        image: burger17,
+        category: "burgers",
+    },
+    {
+        id: "29",
+        name: {
+            az: "Şaurma Roll",
+            en: "Shawarma Roll",
+            ru: "Шаурма Ролл",
+        },
+        image: burger18,
+        category: "burgers",
+    },
+    {
+        id: "30",
+        name: {
+            az: "Tripl Çizburger",
+            en: "Triple Cheeseburger",
+            ru: "Тройной Чизбургер",
+        },
+        image: burger19,
+        category: "burgers",
+    },
+    {
+        id: "31",
+        name: {
+            az: "Dabl Çizburger",
+            en: "Double Cheeseburger",
+            ru: "Двойной Чизбургер",
+        },
+        image: burger20,
+        category: "burgers",
+    },
+    {
+        id: "32",
+        name: {
+            az: "Çizburger",
+            en: "Cheeseburger",
+            ru: "Чизбургер",
+        },
+        image: burger21,
+        category: "burgers",
+    },
+    {
+        id: "33",
+        name: {
+            az: "Tripl Hamburger",
+            en: "Triple Hamburger",
+            ru: "Тройной Гамбургер",
+        },
+        image: burger22,
+        category: "burgers",
+    },
+    {
+        id: "34",
+        name: {
+            az: "Dabl Hamburger",
+            en: "Double Hamburger",
+            ru: "Двойной Гамбургер",
+        },
+        image: burger23,
+        category: "burgers",
+    },
+    {
+        id: "35",
+        name: {
+            az: "Hamburger",
+            en: "Hamburger",
+            ru: "Гамбургер",
+        },
+        image: burger24,
+        category: "burgers",
+    },
+    {
+        id: "36",
+        name: {
+            az: "Dabl Çikenburger",
+            en: "Double Chickenburger",
+            ru: "Двойной Куриный Бургер",
+        },
+        image: burger25,
+        category: "burgers",
+    },
+    {
+        id: "37",
+        name: {
+            az: "Çikenburger",
+            en: "Chickenburger",
+            ru: "Куриный Бургер",
+        },
+        image: burger26,
+        category: "burgers",
+    },
 
 
 
@@ -340,5 +568,316 @@ export const products = [
         },
         image: happyMeal4,
         category: "happy-meal",
+    },
+
+
+
+
+
+
+
+    {
+        id: "42",
+        name: {
+            az: "Kartof fri",
+            en: "French Fries",
+            ru: "Фри",
+        },
+        image: snack1,
+        category: "snacks",
+    },
+    {
+        id: "43",
+        name: {
+            az: "Krispers kartofu",
+            en: "Crispy Fries",
+            ru: "Хрупкие фри",
+        },
+        image: snack2,
+        category: "snacks",
+    },
+    {
+        id: "44",
+        name: {
+            az: "Çiken McNuggets®",
+            en: "Chicken McNuggets®",
+            ru: "Куриные Макнаггетсы®",
+        },
+        image: snack3,
+        category: "snacks",
+    },
+    {
+        id: "45",
+        name: {
+            az: "Acılı McNuggets®",
+            en: "Spicy McNuggets®",
+            ru: "Острый McNuggets®",
+        },
+        image: snack4,
+        category: "snacks",
+    },
+
+    {
+        id: "46",
+        name: {
+            az: "Toyuq qanadları",
+            en: "Chicken Wings",
+            ru: "Куриные крылья",
+        },
+        image: snack5,
+        category: "snacks",
+    },
+    {
+        id: "47",
+        name: {
+            az: "Çiken Strips",
+            en: "Chicken Strips",
+            ru: "Куриные полоски",
+        },
+        image: snack6,
+        category: "snacks",
+    },
+    {
+        id: "48",
+        name: {
+            az: "Çiken Bayts",
+            en: "Chicken Bites",
+            ru: "Куриные кусочки",
+        },
+        image: snack7,
+        category: "snacks",
+    },
+    {
+        id: "49",
+        name: {
+            az: "Krevetlər",
+            en: "Shrimp",
+            ru: "Креветки",
+        },
+        image: snack8,
+        category: "snacks",
+    },
+    {
+        id: "50",
+        name: {
+            az: "Soğan halqaları",
+            en: "Onion Rings",
+            ru: "Кольца из лука",
+        },
+        image: snack9,
+        category: "snacks",
+    },
+    {
+        id: "51",
+        name: {
+            az: "Çiken boks",
+            en: "Chicken Box",
+            ru: "Чикен бокс",
+        },
+        image: snack10,
+        category: "snacks",
+    },
+
+
+
+
+    {
+        id: "52",
+        name: {
+            az: "Sezar salatı (Toyuqla)",
+            en: "Caesar Salad (Chicken)",
+            ru: "Салат Цезарь (Курица)",
+        },
+        image: salad1,
+        category: "salads",
+    },
+    {
+        id: "53",
+        name: {
+            az: "Sezar salatı (Krevetlə)",
+            en: "Caesar Salad (Shrimp)",
+            ru: "Салат Цезарь (Креветки)",
+        },
+        image: salad2,
+        category: "salads",
+    },
+    {
+        id: "54",
+        name: {
+            az: "Tərəvəz salatı",
+            en: "Vegetable Salad",
+            ru: "Овощной салат",
+        },
+        image: salad3,
+        category: "salads",
+    },
+
+
+
+
+
+    {
+        id: "55",
+        name: {
+            az: "Coca-Cola®",
+            en: "Coca-Cola®",
+            ru: "Coca-Cola®",
+        },
+        image: drink1,
+        category: "drinks",
+    },
+    {
+        id: "56",
+        name: {
+            az: "Coca-Cola® Şəkərsiz",
+            en: "Coca-Cola® Zero Sugar",
+            ru: "Coca-Cola® Без Сахара",
+        },
+        image: drink2,
+        category: "drinks",
+    },
+    {
+        id: "57",
+        name: {
+            az: "Fanta® Portağal",
+            en: "Fanta® Orange",
+            ru: "Fanta® Апельсин",
+        },
+        image: drink3,
+        category: "drinks",
+    },
+    {
+        id: "58",
+        name: {
+            az: "Sprite®",
+            en: "Sprite®",
+            ru: "Sprite®",
+        },
+        image: drink4,
+        category: "drinks",
+    },
+    {
+        id: "59",
+        name: {
+            az: "Qazlı su",
+            en: "Carbonated Water",
+            ru: "Газированная вода",
+        },
+        image: drink5,
+        category: "drinks",
+    },
+    {
+        id: "60",
+        name: {
+            az: "Bonaqua®",
+            en: "Bonaqua®",
+            ru: "Bonaqua®",
+        },
+        image: drink6,
+        category: "drinks",
+    },
+    {
+        id: "61",
+        name: {
+            az: "Minute Maid® Alma Şirəsi",
+            en: "Minute Maid® Apple Juice",
+            ru: "Minute Maid® Яблочный сок",
+        },
+        image: drink7,
+        category: "drinks",
+    },
+    {
+        id: "62",
+        name: {
+            az: "Cappy® Mini",
+            en: "Cappy® Mini",
+            ru: "Cappy® Mini",
+        },
+        image: drink8,
+        category: "drinks",
+    },
+    {
+        id: "63",
+        name: {
+            az: "Soyuq Latte",
+            en: "Iced Latte",
+            ru: "Холодный Латте",
+        },
+        image: drink9,
+        category: "drinks",
+    },
+    {
+        id: "64",
+        name: {
+            az: "Soyuq Kapuçino",
+            en: "Iced Cappuccino",
+            ru: "Холодный Капучино",
+        },
+        image: drink10,
+        category: "drinks",
+    },
+    {
+        id: "65",
+        name: {
+            az: "Qəhvə Glisse",
+            en: "Coffee Glisse",
+            ru: "Кофе Гляссе",
+        },
+        image: drink11,
+        category: "drinks",
+    },
+    {
+        id: "66",
+        name: {
+            az: "Ayran",
+            en: "Ayran",
+            ru: "Айран",
+        },
+        image: drink12,
+        category: "drinks",
+    },
+
+
+
+
+    {
+        id: "67",
+        name: {
+            az: "Karamelli Frappe",
+            en: "Frappe caramel",
+            ru: "Фраппе карамельный",
+        },
+        image: mccafe1,
+        category: "mccafe",
+    },
+    {
+        id: "68",
+        name: {
+            az: "Çiyələkli Smuzi",
+            en: "Smoothie Strawberry",
+            ru: "Клубничный Смузи",
+        },
+        image: mccafe2,
+        category: "mccafe",
+    },
+    {
+        id: "69",
+        name: {
+            az: "Buzlu Amerikano",
+            en: "Iced Americano",
+            ru: "Холодный Американо",
+        },
+        image: mccafe3,
+        category: "mccafe",
+    },
+    {
+        id: "70",
+        name: {
+            az: "Buzlu Latte",
+            en: "Iced Latte",
+            ru: "Холодный Латте",
+        },
+        image: mccafe4,
+        category: "mccafe",
     },
 ]
