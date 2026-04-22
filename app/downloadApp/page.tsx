@@ -29,12 +29,6 @@ function page() {
                     <Link href={'https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp&hl=en'} className="store-btn android">Android</Link>
                 </div>
 
-                <h1>{downloadAppText.supportTitle}</h1>
-                <p>{downloadAppText.supportDescription}</p>
-
-                <div className="download-buttons">
-                    <Link href={'/mobile-app-feedback'} className="feedback-btn">{downloadAppText.feedback}</Link>
-                </div>
 
             </div>
 

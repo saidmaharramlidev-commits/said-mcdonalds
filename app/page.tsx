@@ -46,7 +46,7 @@ export default function Home() {
 
         <div id="white-div-mario">
           <p className="md:text-3xl sm:text-2xl font-semibold">{adText}</p>
-          <Link href='/' className="center moreBtn-mario">{moreBtnText}</Link>
+          <Link href='/news/1' className="center moreBtn-mario">{moreBtnText}</Link>
 
 
         </div>

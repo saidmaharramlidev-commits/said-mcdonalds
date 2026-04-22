@@ -75,6 +75,35 @@ import mccafe2 from "@/public/menu/mcCafe/mccafe2.png"
 import mccafe3 from "@/public/menu/mcCafe/mccafe3.png"
 import mccafe4 from "@/public/menu/mcCafe/mccafe4.png"
 
+import coctail1 from "@/public/menu/coctails/coctail1.png"
+import coctail3 from "@/public/menu/coctails/coctail3.png"
+import coctail4 from "@/public/menu/coctails/coctail4.png"
+import coctail5 from "@/public/menu/coctails/coctail5.png"
+import coctail6 from "@/public/menu/coctails/coctail6.png"
+import coctail7 from "@/public/menu/coctails/coctail7.png"
+
+import hotdrink1 from "@/public/menu/hotDrinks/hotdrink1.png"
+import hotdrink2 from "@/public/menu/hotDrinks/hotdrink2.png"
+import hotdrink3 from "@/public/menu/hotDrinks/hotdrink3.png"
+import hotdrink4 from "@/public/menu/hotDrinks/hotdrink4.png"
+import hotdrink5 from "@/public/menu/hotDrinks/hotdrink5.png"
+import hotdrink6 from "@/public/menu/hotDrinks/hotdrink6.png"
+
+import souce1 from "@/public/menu/souces/souce1.png"
+import souce2 from "@/public/menu/souces/souce2.png"
+import souce3 from "@/public/menu/souces/souce3.png"
+import souce4 from "@/public/menu/souces/souce4.png"
+import souce5 from "@/public/menu/souces/souce5.png"
+import souce6 from "@/public/menu/souces/souce6.png"
+import souce7 from "@/public/menu/souces/souce7.png"
+import souce8 from "@/public/menu/souces/souce8.png"
+import souce9 from "@/public/menu/souces/souce9.png"
+import souce10 from "@/public/menu/souces/souce10.png"
+import souce11 from "@/public/menu/souces/souce11.png"
+import souce12 from "@/public/menu/souces/souce12.png"
+import souce13 from "@/public/menu/souces/souce13.png"
+import souce14 from "@/public/menu/souces/souce14.png"
+
 
 
 export const categories = [
@@ -140,6 +169,36 @@ export const categories = [
             ru: "McCafe",
         },
         icon: mccafe1,
+    },
+
+    {
+        id: "coctails",
+        name: {
+            az: "Kokteyllər",
+            en: "Cocktails",
+            ru: "Коктейли",
+        },
+        icon: coctail1,
+    },
+
+    {
+        id: "hot-drinks",
+        name: {
+            az: "İsti içkilər",
+            en: "Hot Drinks",
+            ru: "Горячие напитки",
+        },
+        icon: hotdrink1,
+    },
+
+    {
+        id: "souces",
+        name: {
+            az: "Soslar",
+            en: "Sauces",
+            ru: "Соусы",
+        },
+        icon: souce1,
     },
 ]
 
@@ -879,5 +938,267 @@ export const products = [
         },
         image: mccafe4,
         category: "mccafe",
+    },
+
+
+
+
+
+
+    {
+        id: "100",
+        name: {
+            az: "McFlurry™ (Kit-Kat™)",
+            en: "McFlurry™ (Kit-Kat™)",
+            ru: "McFlurry™ (Kit-Kat™)",
+        },
+        image: coctail1,
+        category: "coctails",
+    },
+    {
+        id: "101",
+        name: {
+            az: "Südlü Kokteyl (Çiyələk)",
+            en: "Milk Shake (Strawberry)",
+            ru: "Молочный Коктейль (Клубника)",
+        },
+        image: coctail3,
+        category: "coctails",
+    },
+    {
+        id: "102",
+        name: {
+            az: "Maffin (Şokolad)",
+            en: "Muffin (Chocolate)",
+            ru: "Маффин (Шоколад)",
+        },
+        image: coctail4,
+        category: "coctails",
+    },
+    {
+        id: "103",
+        name: {
+            az: "Meyvəli Piroq (Albalı)",
+            en: "Fruit pie (Cherry)",
+            ru: "Фруктовый пирог (Вишня)",
+        },
+        image: coctail5,
+        category: "coctails",
+    },
+    {
+        id: "104",
+        name: {
+            az: "Muffin (Banan)",
+            en: "Muffin (Banan)",
+            ru: "Маффин (Банан)",
+        },
+        image: coctail6,
+        category: "coctails",
+    },
+    {
+        id: "105",
+        name: {
+            az: "Konus Dondurması",
+            en: "Cone Ice Cream",
+            ru: "Конус Мороженное",
+        },
+        image: coctail7,
+        category: "coctails",
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        id: "106",
+        name: {
+            az: "Çay",
+            en: "Tea",
+            ru: "Чай",
+        },
+        image: hotdrink1,
+        category: "hot-drinks",
+    },
+    {
+        id: "107",
+        name: {
+            az: "İsti şokolad",
+            en: "Hot Chocolate",
+            ru: "Горячий шоколад",
+        },
+        image: hotdrink2,
+        category: "hot-drinks",
+    },
+    {
+        id: "108",
+        name: {
+            az: "Espresso",
+            en: "Espresso",
+            ru: "Эспрессо",
+        },
+        image: hotdrink3,
+        category: "hot-drinks",
+    },
+    {
+        id: "109",
+        name: {
+            az: "Qəhvə",
+            en: "Coffee",
+            ru: "Кофе",
+        },
+        image: hotdrink4,
+        category: "hot-drinks",
+    },
+    {
+        id: "110",
+        name: {
+            az: "Kapuçino",
+            en: "Cappuccino",
+            ru: "Капучино",
+        },
+        image: hotdrink5,
+        category: "hot-drinks",
+    },
+    {
+        id: "111",
+        name: {
+            az: "Latte",
+            en: "Latte",
+            ru: "Латте",
+        },
+        image: hotdrink6,
+        category: "hot-drinks",
+    },
+
+
+
+
+
+
+    {
+        id: "112",
+        name: {
+            az: "Dorblu sous (40 ml)",
+            en: "Dorblu Sauce (40 ml)",
+            ru: "Соус Дорблю (40 ml)",
+        },
+        image: souce1,
+        category: "souces",
+    },
+    {
+        id: "113",
+        name: {
+            az: "Habanero sous (40 ml)",
+            en: "Habanero Sauce (40 ml)",
+            ru: "Соус Хабанero (40 ml)",
+        },
+        image: souce2,
+        category: "souces",
+    },
+    {
+        id: "114",
+        name: {
+            az: "Big Tasty Sous (25 ml)",
+            en: "Big Tasty Sauce (25 ml)",
+            ru: "Соус Биг Тейсти (25 ml)",
+        },
+        image: souce3,
+        category: "souces",
+    },
+    {
+        id: "115",
+        name: {
+            az: "Ketçup (25 ml)",
+            en: "Ketchup (25 ml)",
+            ru: "Кетчуп (25 ml)",
+        },
+        image: souce4,
+        category: "souces",
+    },
+    {
+        id: "116",
+        name: {
+            az: "Mayonez (25 ml)",
+            en: "Mayonnaise (25 ml)",
+            ru: "Майонез (25 ml)",
+        },
+        image: souce5,
+        category: "souces",
+    },
+    {
+        id: "117",
+        name: {
+            az: "Barbekyu sous (25 ml)",
+            en: "Barbecue Sauce (25 ml)",
+            ru: "Соус Барбекю (25 ml)",
+        },
+        image: souce6,
+        category: "souces",
+    },
+    {
+        id: "118",
+        name: {
+            az: "Pendirli sous (25 ml)",
+            en: "Cheese Sauce (25 ml)",
+            ru: "Соус Сырный  (25 ml)",
+        },
+        image: souce7,
+        category: "souces",
+    },
+    {
+        id: "119",
+        name: {
+            az: "Çili sous (25 ml)",
+            en: "Chili sauce (25 ml)",
+            ru: "Соус Чили (25 ml)",
+        },
+        image: souce8,
+        category: "souces",
+    },
+    {
+        id: "120",
+        name: {
+            az: "Sarımsaqlı sous (25 ml)",
+            en: "Garlic Sauce (25 ml)",
+            ru: "Соус Сырный  (25 ml)",
+        },
+        image: souce9,
+        category: "souces",
+    },
+    {
+        id: "121",
+        name: {
+            az: "Kokteyl sousu (25 ml)",
+            en: "Cocktail Sauce (25 ml)",
+            ru: "Коктейльный соус (25 ml)",
+        },
+        image: souce10,
+        category: "souces",
+    },
+    {
+        id: "122",
+        name: {
+            az: "Turşa-şirin sous (25 ml)",
+            en: "Sweet and Sour Sauce (25 ml)",
+            ru: "Кисло-сладкий соус (25 ml)",
+        },
+        image: souce11,
+        category: "souces",
+    },
+    {
+        id: "123",
+        name: {
+            az: "Şirin çili sousu (25 ml)",
+            en: "Sweet Chili Sauce (25 ml)",
+            ru: "Сладкий соус чили (25 ml)",
+        },
+        image: souce12,
+        category: "souces",
     },
 ]

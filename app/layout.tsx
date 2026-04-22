@@ -21,6 +21,8 @@ import '@/css/ourHistoryPage.css'
 import '@/css/newsPage.css'
 import '@/css/valuesPage.css'
 import "@/css/menuPage.css"
+import '@/css/questionsPage.css'
+import '@/css/qualityPage.css'
 
 
 const metadata: Metadata = {

@@ -39,7 +39,7 @@ function Footer() {
                     <h1>{langOfFooter.about[0]}</h1>
                     <Link href={'/our-history'} className="footer-link">{langOfFooter.about[1]}</Link>
                     <Link href={'/news'} className="footer-link">{langOfFooter.about[2]}</Link>
-                    <Link href={'/'} className="footer-link">{langOfFooter.about[3]}</Link>
+                    <Link href={'/questions'} className="footer-link">{langOfFooter.about[3]}</Link>
                     <Link href={'/values'} className="footer-link">{langOfFooter.about[4]}</Link>
 
                 </div>

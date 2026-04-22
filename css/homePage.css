@@ -298,6 +298,16 @@
         font-size: 1.6rem;
     }
 
+    #marioPic {
+        display: none;
+    }
+
+    #mainMario-wrapper {
+        background-image: url('@/public/homePageMario.png');
+        object-fit: cover;
+        background-position: center;
+    }
+
 }
 
 @media(max-width:600px) {
